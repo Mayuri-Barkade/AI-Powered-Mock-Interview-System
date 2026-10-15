@@ -1,19 +1,17 @@
-# AI-Powered Mock Interview and Candidate Evaluation System
-
 ## Project Screenshots
 
-### Homepage 
-![Homepage](screenshots/dashboard.png)
+### Homepage
+![Homepage](screenshots/homepage.png)
 
 ### Dashboard Page
 ![Dashboard Page](screenshots/dashboard.png)
 
-### Candidate Dashboard
-![Candidate Dashboard](screenshots/dashboard.png)
 
 ### History Page
 ![History Page](screenshots/history.png)
 
-### Admin page
-![Admin](screenshots/admin.png)
-![Admin](screenshots/admin2.png)
+### Admin Page
+![Admin Page](screenshots/admin.png)
+
+### Admin Page2
+![Admin Page2](screenshots/admin2.png)
