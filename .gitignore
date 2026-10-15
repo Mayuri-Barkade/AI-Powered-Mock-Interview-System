@@ -1,0 +1,28 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+dist/
+build/
+
+# Environment files
+.env
+
+# Database
+db.sqlite3
+
+# Model files
+*.pth
+*.pt
+*.bin
+
+# IDE
+.vscode/
+.idea/
