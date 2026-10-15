@@ -1,0 +1,151 @@
+id,question_id,question,expected_topics,role,difficulty,category
+1,1,How do pivot tables help in analysis?,"aggregation, summarization",data_analyst,easy,Excel
+2,2,What is A/B testing and how would you design one?,"hypothesis, control group, test group, statistical significance, p-value",data_analyst,hard,Statistics
+3,3,What are window functions in SQL?,"rank, partition, over clause",data_analyst,hard,SQL
+4,4,What is a subquery? When would you use one?,"nested query, correlated subquery, performance",data_analyst,medium,SQL
+5,5,How would you handle missing data in a dataset?,"imputation, dropna, fillna, data quality",data_analyst,medium,Python
+6,6,What is the difference between correlation and causation?,"correlation coefficient, causation, confounding variables",data_analyst,medium,Statistics
+7,7,How is Pandas used in data analysis?,"dataframe, cleaning, analysis",data_analyst,medium,Python
+8,8,What is the Central Limit Theorem and why is it important in data analysis?,"normal distribution, sample size, mean, standard deviation",data_analyst,medium,Statistics
+9,9,What is the difference between WHERE and HAVING clause?,"filtering, group by, aggregation",data_analyst,easy,SQL
+10,10,"Explain the difference between INNER JOIN, LEFT JOIN, and FULL OUTER JOIN with examples.","join types, matching rows, null values, Venn diagram",data_analyst,easy,SQL
+11,11,"Explain mean, median, and mode with examples.","central tendency, distribution",data_analyst,easy,Statistics
+12,12,What is hypothesis testing?,"null hypothesis, p-value, significance",data_analyst,medium,Statistics
+13,13,How would you choose the right chart type for presenting data? Give examples.,"bar chart, line chart, scatter plot, pie chart, audience",data_analyst,easy,Visualization
+14,14,What are the best practices for dashboard design?,"clarity, layout, KPIs, user experience",data_analyst,medium,Visualization
+15,15,What is normalization in databases?,"1NF, 2NF, 3NF, redundancy",data_analyst,medium,SQL
+16,16,What is Kubernetes?,"orchestration, pods, scaling",devops_engineer,medium,Containers
+17,17,What is DevSecOps?,"security, integration",devops_engineer,medium,Security
+18,18,What is serverless computing?,"Lambda, event-driven",devops_engineer,medium,Cloud
+19,19,What is Infrastructure as Code?,"Terraform, automation",devops_engineer,medium,Infrastructure
+20,20,Explain a CI/CD pipeline and its stages.,"build, test, deploy, automation, integration",devops_engineer,medium,CI/CD
+21,21,What tools are used in CI/CD?,"Jenkins, GitHub Actions",devops_engineer,easy,CI/CD
+22,22,What is Docker and how does it differ from virtual machines?,"containerization, images, lightweight, isolation, kernel",devops_engineer,easy,Containers
+23,23,Explain load balancing.,"traffic, distribution",devops_engineer,easy,Networking
+24,24,What is observability and how is it different from monitoring?,"logs, metrics, traces, distributed systems",devops_engineer,hard,Monitoring
+25,25,What is a VPC and why is it used in cloud environments?,"virtual network, subnets, isolation, security",devops_engineer,medium,Networking
+26,26,What is the difference between horizontal and vertical scaling?,"scale out, scale up, load, performance",devops_engineer,medium,Cloud
+27,27,How do you handle rollbacks in a deployment pipeline?,"blue-green, canary, rollback strategy, version control",devops_engineer,hard,CI/CD
+28,28,What is monitoring in DevOps?,"logs, metrics, alerts",devops_engineer,medium,Monitoring
+29,29,What is AWS EC2?,"virtual machine, cloud",devops_engineer,easy,Cloud
+30,30,What is secret management in DevOps?,"Vault, environment variables, encryption",devops_engineer,medium,Security
+31,31,What is closure in JavaScript?,"scope, function",frontend_developer,medium,JavaScript
+32,32,Explain the virtual DOM and how React uses it for efficient rendering.,"diffing, reconciliation, performance, real DOM, batch updates",frontend_developer,medium,React
+33,33,What is lazy loading and how does it improve performance?,"code splitting, dynamic import, bundle size",frontend_developer,medium,Performance
+34,34,What is CORS?,cross-origin,frontend_developer,medium,Web
+35,35,How do you test frontend applications?,"jest, testing library",frontend_developer,medium,Testing
+36,36,What is state vs props?,data flow,frontend_developer,easy,React
+37,37,Explain event bubbling.,event propagation,frontend_developer,medium,JavaScript
+38,38,What are React hooks?,"useState, useEffect",frontend_developer,easy,React
+39,39,What is the difference between Flexbox and CSS Grid? When would you use each?,"one-dimensional, two-dimensional, layout, alignment, responsive",frontend_developer,easy,CSS
+40,40,How do you optimize frontend performance?,"lazy loading, caching",frontend_developer,medium,Performance
+41,41,What is the event loop in JavaScript?,"call stack, event queue, microtasks, async",frontend_developer,hard,JavaScript
+42,42,What is the difference between == and === in JavaScript?,"type coercion, strict equality",frontend_developer,easy,JavaScript
+43,43,What is the Context API and when would you use it?,"global state, provider, consumer, prop drilling",frontend_developer,medium,React
+44,44,What is the CSS box model?,"margin, border, padding, content",frontend_developer,easy,CSS
+45,45,What is responsive design?,media queries,frontend_developer,easy,CSS
+46,46,What is the ROC-AUC curve?,"true positive rate, false positive rate, threshold, classification",ml_engineer,hard,Evaluation
+47,47,What is a convolutional neural network and where is it used?,"convolution, pooling, feature extraction, image recognition",ml_engineer,medium,Deep Learning
+48,48,What is a transformer model?,"attention, self-attention, BERT, GPT",ml_engineer,hard,NLP
+49,49,How do you prevent overfitting?,"regularization, dropout",ml_engineer,medium,Overfitting
+50,50,What is NLP?,text processing,ml_engineer,easy,NLP
+51,51,What is transfer learning?,"pretrained model, fine-tuning, domain adaptation",ml_engineer,medium,Deep Learning
+52,52,What is gradient descent?,"learning rate, optimization",ml_engineer,medium,Optimization
+53,53,Explain the bias-variance tradeoff in machine learning.,"underfitting, overfitting, generalization, model complexity",ml_engineer,medium,Fundamentals
+54,54,What is precision and recall?,"metrics, classification",ml_engineer,medium,Evaluation
+55,55,What are activation functions?,"relu, sigmoid",ml_engineer,medium,Deep Learning
+56,56,Explain decision trees.,"nodes, splitting",ml_engineer,easy,Models
+57,57,What is supervised vs unsupervised learning?,"labels, clustering",ml_engineer,easy,ML Basics
+58,58,"What are the differences between Adam, SGD, and RMSProp optimizers?","momentum, adaptive learning rate, convergence",ml_engineer,hard,Optimization
+59,59,What is the difference between classification and regression?,"discrete output, continuous output, supervised learning",ml_engineer,easy,Fundamentals
+60,60,How do you deploy ML models?,"API, scaling",ml_engineer,hard,Deployment
+61,61,How do you handle missed deadlines?,"communication, planning",product_manager,easy,Execution
+62,62,How do you define and measure product success?,"KPIs, OKRs, north star metric",product_manager,medium,Metrics
+63,63,How would you prioritize features for a new product release?,"MoSCoW, RICE, user impact, business value, effort",product_manager,medium,Strategy
+64,64,How do you handle conflicting stakeholder requirements?,"negotiation, prioritization",product_manager,medium,Stakeholders
+65,65,What is product-market fit?,"market, demand, user satisfaction",product_manager,medium,Strategy
+66,66,What is a go-to-market strategy?,"launch, channels, target audience, positioning",product_manager,medium,Strategy
+67,67,What makes a good user experience?,"usability, design, feedback",product_manager,easy,UX
+68,68,What KPIs would you track for a mobile app launch?,"DAU, retention, conversion, NPS, churn rate",product_manager,medium,Metrics
+69,69,What is a product roadmap?,"planning, timeline",product_manager,easy,Roadmap
+70,70,How do you write a PRD (Product Requirements Document)?,"user stories, requirements, acceptance criteria, scope",product_manager,hard,Execution
+71,71,How do you use data to make product decisions?,"metrics, funnels, experiments",product_manager,medium,Analytics
+72,72,How would you do a competitive analysis?,"market research, SWOT, competitor features",product_manager,medium,Strategy
+73,73,How would you launch a new feature?,"testing, marketing, rollout",product_manager,medium,Launch
+74,74,How would you improve Instagram?,"user experience, features, engagement",product_manager,medium,Product Sense
+75,75,How do you analyze a drop in user retention?,"data analysis, funnels, cohorts",product_manager,hard,Analytics
+76,76,What is time complexity? Explain Big-O notation with examples.,"Big-O, time complexity, performance, algorithms",software_developer,easy,DSA
+77,77,What is dynamic programming? Explain with an example.,"memoization, tabulation, overlapping subproblems, optimal substructure",software_developer,hard,DSA
+78,78,How would you design a URL shortener like bit.ly?,"hashing, database, redirection, scalability, analytics",software_developer,hard,System Design
+79,79,What is the difference between abstract class and interface?,"abstraction, inheritance, methods, implementation",software_developer,medium,OOP
+80,80,Explain the difference between REST and GraphQL APIs.,"endpoints, query, over-fetching, schema, flexibility",software_developer,medium,Web
+81,81,"What is database normalization? Explain first, second, and third normal forms.","1NF, 2NF, 3NF, redundancy, functional dependency",software_developer,medium,Database
+82,82,What are SOLID principles?,"single responsibility, open-closed, Liskov, interface segregation, dependency inversion",software_developer,hard,OOP
+83,83,"What is a binary search tree? Explain insertion, deletion, and search.","BST, traversal, time complexity, balanced tree",software_developer,medium,DSA
+84,84,How would you design a scalable chat application?,"websockets, real-time, scaling, database, message queue",software_developer,hard,System Design
+85,85,What are the four pillars of Object-Oriented Programming? Explain with examples.,"encapsulation, inheritance, polymorphism, abstraction",software_developer,medium,OOP
+86,86,What is indexing in databases and why is it important?,"index, query optimization, performance, B-tree",software_developer,medium,Database
+87,87,What is a microservices architecture?,"services, API gateway, decoupling, scalability",software_developer,hard,System Design
+88,88,What happens when you type a URL in the browser?,"DNS, HTTP, TCP/IP, server, rendering",software_developer,hard,Web
+89,89,Explain the difference between a stack and a queue. When would you use each?,"LIFO, FIFO, use cases, data structure",software_developer,easy,DSA
+90,90,What is the difference between HTTP and HTTPS?,"SSL, TLS, encryption, security",software_developer,easy,Web
+91,91,What is the difference between OLAP and OLTP?,"analytical, transactional, data warehouse, aggregation",data_analyst,medium,Database
+92,92,Explain the concept of data warehousing.,"ETL, star schema, fact table, dimension table",data_analyst,medium,Database
+93,93,What is the difference between a bar chart and a histogram?,"frequency, distribution, categorical, continuous",data_analyst,easy,Visualization
+94,94,How do you detect outliers in a dataset?,"IQR, z-score, box plot, anomaly",data_analyst,medium,Statistics
+95,95,What is the purpose of GROUP BY in SQL?,"aggregation, grouping, COUNT, SUM, AVG",data_analyst,easy,SQL
+96,96,What is standard deviation and variance?,"spread, dispersion, mean deviation",data_analyst,medium,Statistics
+97,97,How would you approach a data quality issue?,"validation, cleaning, null values, duplicates",data_analyst,medium,Python
+98,98,What is the difference between a left join and inner join?,"null rows, matching, all records",data_analyst,easy,SQL
+99,99,What is logistic regression used for in data analysis?,"binary classification, probability, sigmoid",data_analyst,hard,Statistics
+100,100,How do you use VLOOKUP in Excel?,"lookup, reference, match, column index",data_analyst,easy,Excel
+101,101,What is the difference between blue-green and canary deployments?,"zero downtime, gradual rollout, traffic splitting",devops_engineer,hard,CI/CD
+102,102,What is Helm and how is it used with Kubernetes?,"chart, package manager, release, values",devops_engineer,medium,Containers
+103,103,Explain the concept of immutable infrastructure.,"no changes in place, replace, idempotent, reproducible",devops_engineer,medium,Infrastructure
+104,104,What is Prometheus and how is it used for monitoring?,"metrics, scraping, alertmanager, time series",devops_engineer,medium,Monitoring
+105,105,What is the difference between SSH and SSL?,"encryption, authentication, protocol",devops_engineer,easy,Security
+106,106,How do you secure a CI/CD pipeline?,"secrets, scanning, access control, audit",devops_engineer,hard,Security
+107,107,What is Ansible and how does it differ from Terraform?,"configuration management, provisioning, agentless",devops_engineer,medium,Infrastructure
+108,108,What is a service mesh?,"Istio, sidecar proxy, traffic management, observability",devops_engineer,hard,Networking
+109,109,What is container orchestration?,"scheduling, scaling, health checks, Kubernetes",devops_engineer,easy,Containers
+110,110,What is the difference between RTO and RPO in disaster recovery?,"recovery time, recovery point, backup, SLA",devops_engineer,medium,Cloud
+111,111,What is TypeScript and why would you use it over JavaScript?,"static typing, interfaces, type safety, compile time",frontend_developer,medium,JavaScript
+112,112,Explain the difference between useMemo and useCallback in React.,"memoization, re-render, performance, reference equality",frontend_developer,hard,React
+113,113,What is server-side rendering (SSR) vs client-side rendering (CSR)?,"Next.js, SEO, performance, hydration",frontend_developer,medium,Web
+114,114,What is a service worker and how does it enable PWAs?,"offline, cache, background sync, push notifications",frontend_developer,hard,Web
+115,115,What is the difference between localStorage and sessionStorage?,"persistence, session, key-value, browser storage",frontend_developer,easy,Web
+116,116,How does CSS specificity work?,"selector weight, inline styles, ID, class, element",frontend_developer,medium,CSS
+117,117,What are higher-order components in React?,"HOC, reusability, props, wrapper",frontend_developer,medium,React
+118,118,What is debouncing and throttling in JavaScript?,"rate limiting, scroll, resize, API calls",frontend_developer,medium,Performance
+119,119,What is Webpack and what does it do?,"bundler, module, loaders, plugins, tree shaking",frontend_developer,medium,Performance
+120,120,What is accessibility (a11y) in web development?,"ARIA, screen reader, semantic HTML, keyboard navigation",frontend_developer,easy,Web
+121,121,What is feature engineering and why is it important?,"feature extraction, transformation, domain knowledge",ml_engineer,medium,Fundamentals
+122,122,What is the difference between bagging and boosting?,"ensemble, Random Forest, XGBoost, variance, bias",ml_engineer,hard,Models
+123,123,What is dimensionality reduction? Explain PCA.,"PCA, variance, eigenvectors, curse of dimensionality",ml_engineer,hard,Fundamentals
+124,124,What is cross-validation and why is it used?,"k-fold, overfitting, generalization, train-test split",ml_engineer,medium,Evaluation
+125,125,What is the vanishing gradient problem?,"backpropagation, sigmoid, deep networks, ReLU",ml_engineer,hard,Deep Learning
+126,126,What is a recommendation system?,"collaborative filtering, content-based, matrix factorization",ml_engineer,medium,Models
+127,127,What is the difference between L1 and L2 regularization?,"Lasso, Ridge, sparsity, penalty",ml_engineer,medium,Overfitting
+128,128,What is tokenization in NLP?,"words, subwords, BPE, vocabulary",ml_engineer,easy,NLP
+129,129,How does a random forest work?,"decision trees, ensemble, bagging, feature importance",ml_engineer,medium,Models
+130,130,What is model drift and how do you detect it?,"data drift, concept drift, monitoring, retraining",ml_engineer,hard,Deployment
+131,131,What is the difference between OKRs and KPIs?,"objectives, key results, measurable, outcomes",product_manager,medium,Metrics
+132,132,How would you run a user research session?,"interviews, usability testing, surveys, insights",product_manager,medium,UX
+133,133,What is agile methodology and how does it apply to product management?,"sprints, backlog, scrum, iteration",product_manager,medium,Execution
+134,134,"How would you decide whether to build, buy, or partner?","make vs buy, cost-benefit, time to market, core competency",product_manager,hard,Strategy
+135,135,What is the difference between a product vision and a product strategy?,"long-term, direction, roadmap, goals",product_manager,medium,Strategy
+136,136,How do you write a good user story?,"as a user, acceptance criteria, value, persona",product_manager,easy,Execution
+137,137,What is the Jobs To Be Done framework?,"user motivation, outcome, context, switching",product_manager,medium,Product Sense
+138,138,How would you handle a negative product review trend?,"sentiment analysis, root cause, churn, feedback loop",product_manager,medium,Analytics
+139,139,What is freemium and when does it work?,"conversion, upsell, free tier, monetization",product_manager,medium,Strategy
+140,140,How do you measure the success of a redesign?,"A/B test, conversion rate, usability score, engagement",product_manager,hard,Metrics
+141,141,What is the difference between process and thread?,"concurrency, memory, context switching, parallelism",software_developer,medium,OS
+142,142,Explain how garbage collection works in Java or Python.,"memory management, reference counting, GC roots",software_developer,medium,OOP
+143,143,What is a deadlock and how do you prevent it?,"mutex, lock ordering, resource allocation, circular wait",software_developer,hard,OS
+144,144,What is the difference between SQL and NoSQL databases?,"schema, scalability, ACID, CAP theorem",software_developer,medium,Database
+145,145,What is caching and when would you use it?,"Redis, Memcached, TTL, cache invalidation",software_developer,medium,System Design
+146,146,Explain the concept of database transactions and ACID properties.,"atomicity, consistency, isolation, durability",software_developer,medium,Database
+147,147,What is the difference between monolithic and microservices architecture?,"coupling, deployment, scalability, communication",software_developer,hard,System Design
+148,148,What is a hash table and how does it handle collisions?,"hashing, chaining, open addressing, load factor",software_developer,medium,DSA
+149,149,What is the difference between GET and POST HTTP methods?,"idempotent, body, query params, REST",software_developer,easy,Web
+150,150,What is event-driven architecture?,"events, message broker, Kafka, decoupling, async",software_developer,hard,System Design

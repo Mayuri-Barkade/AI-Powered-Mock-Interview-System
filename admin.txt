@@ -1,0 +1,8 @@
+from accounts.models import User
+u = User.objects.get(email="mayuribarkade13@gmail.com")
+u.is_staff = True
+u.is_superuser = True
+u.save()
+print("Done! is_staff:", u.is_staff)
+
+http://127.0.0.1:8000/admin/
